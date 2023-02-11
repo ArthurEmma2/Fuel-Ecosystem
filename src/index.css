@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    
+    }
+}
+
+
+
+body{
+    background:rgba(12, 11, 29, 1)!important ;
+    font-family: 'raleway' sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header_shrink{
+    background: rgba(12, 11, 29, 1)!important;
+    box-shadow: 3px 3px 6px -3px #fff;
+}
+
+
+.active{
+    text-decoration: underline white !important;
+    text-underline-offset: 15px !important ;
+}
+
+.mobile_menu{
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+
+.e-header{
+    color: #ffff;
+    text-shadow: rgba(255,255,255,0.9) 0px 0px 35px;
+}
+
+
+.job_img img{
+    width: 800px;
+}
+
+
+.btn_h:hover{
+border: 1px solid green;
+
+}
+
+.e-btn{
+    margin-bottom: 32px;
+    padding: 3px 34px;
+    transition: 0.3s ease;
+   
+}
+
+
+.e-btn:hover{
+    text-decoration: underline 1px solid wheat;
+    text-underline-offset: 15px;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: #f0f0f0;
+    border-radius: 2rem;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: grey;
+}
+
+
+
+@media only screen and (max-width: 991px){
+    .job_img img{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 551px){
+    .job_img img{
+        display: none;
+    }
+}
