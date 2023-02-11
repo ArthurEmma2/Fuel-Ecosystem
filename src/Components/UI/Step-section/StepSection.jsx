@@ -4,17 +4,20 @@ import education from '../../../Assets/img/education-removebg-preview.png'
 import move from '../../../Assets/img/Move-removebg-preview.png'
 import Discord from '../../../Assets/img/discord-logo-transparent-chat-removebg-preview.png'
 import  Aos  from 'aos';
+import { Link } from 'react-router-dom'
 
 const STEP__DATA =[
     {
         title: 'Sway Language',
         desc: "Sway is a domain-specific language a blockchain-optimized VM designed for the Fuel blockchain. Sway is based on Rust,",
-        imgurl: move
+        imgurl: move,
+        Url: "https://fuellabs.github.io/sway/v0.35.0/book/"
     },
     {
         title: 'Community',
         desc: "The Fuel Community is made up of Innovators, Creators, Contributors, and, of course, a few wild cards.",
-        imgurl: community
+        imgurl: community,
+        Url: "https://forum.fuel.network/"
     },
     {
         title: 'Education',

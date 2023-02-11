@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Link,} from 'react-router-dom'
 import './ecosystemCards.css'
 import { motion} from "framer-motion";
@@ -17,7 +17,7 @@ function EcosystemCards(props) {
             <div className='bg-[#ECF8F5] sm:w-full md:w-[303px] h-[162px] rounded-[15px] shadow-md  shadow-slate-400 hover:scale-95 duration-500' key={id}>
                 <div className="flex pt-[24px] ml-2 gap-8">
                 <div className=''>
-                <Link to={`/ecosystem/${id}`}>
+                <Link to={`/ecosystem/${title}`}>
                     <img src={imgUrl}  alt='logo' className='e-logo'/>
                     </Link>
                 </div>

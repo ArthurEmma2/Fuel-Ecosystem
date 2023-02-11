@@ -22,40 +22,25 @@ import img13 from '../../Assets/img/Fuel pictures/projects/sway.jpg'
   {
     id: "9",
     title: "SwaySwap",
-    desc: ' Bitcoin wallet and BFI(Bitcoin Finance) portal '+
-    'Volt is a Bitcoin and multi-chain crypto wallet in your Browser '+
-    'Volt is an extension for reading from and writing to Bitcoin blockchain! '+
-    'Scan QR code with Volt mobile App to connect with extention wallet in a simple and secure way. '+
-    
-    'Volt is also the first wallet that supports interacting with BFI(called DeFi by the wider crypto community) on Bitcoin '+
-    
-    'Volt also lets the user create and manage their own identities and application connection, ' +
-     'when a third party app requires the user to approve permission, the user is presented an interface '+
-    'to review permisssions and transaction, before approving or rejecting it. '+
-    
-    'Volt nables access to: '+
-    ' Web 3.0, Bitcoin Dapps, Bitcoin NFTs, STP(Sensible Token Protocol) tokens. ',
+    desc: ' SwaySwap is a blazingly fast DEX built on the fastest modular execution layer: Fuel. Built with an entirely new language [Sway], virtual machine [FuelVM], and UTXO-based smart contract blockchain [Fuel], you can now experience a demonstration of the next generation of scaling beyond layer-2s and monolithic blockchain design. #BeyondMonolithic',
     imgUrl: img13,
-    category: 'Wallet',
-    twitter: 'https://twitter.com/VoltWallet',
-    discord: 'https://t.co/axchQFagUZ',
+    category: 'DeFi',
+    twitter: 'https://twitter.com/fuellabs_',
+    discord: 'https://discord.com/invite/xfpK4Pe',
+    status: "Testnet",
+    website:'https://fuellabs.github.io/swayswap',
 
-   
+  
   },
     {
         id: "02",
-        title: "Fuel Wallet",
-        desc: 'Martian wallet is a crypto wallet that can be used to manage digital assets and access decentralized applications on the blockchain. '+ 
-        'Martian wallet is currently available as a browser extension  and soon will be available as an IOS app '+
-        'At its core, Martian wallet works by creating and managing private keys on behalf of its users. These keys can then be used within Martian wallet to store funds and sign transactions. '+
-        'To interact with web applications, the Martian wallet extension inject an aptosobject into the javascript context of every site the user visits. A given web app may then interact with Martian wallet, ' +
-        'and ask for the users permission to perform transactions, through this injected object ' +
-        'This documentation is intended for developers who are building applications with Martian wallet. To get help with using Martian wallet or for giving suggestions, please check out our  or contact our .',
+        title: "Fuelet Wallet",
+        desc: 'Self-custodial wallet on fuel for iOS, Android, and Browsers.',
         imgUrl: img1,
         category: 'Wallet',
-        website:'https://martianwallet.xyz/',
-        discord:'https://discord.com/invite/GaB7BpgX7h',
-        medium:'https://medium.com/@martian-wallet',
+        website:'https://fuelet.app/',
+        twitter: "https://twitter.com/FueletWallet",
+        status: "Building"
         
         
        
@@ -63,89 +48,57 @@ import img13 from '../../Assets/img/Fuel pictures/projects/sway.jpg'
     {
         id: "03",
         title: "Thunder",
-        desc:  'Pontem is a product development studio working toward global financial ' +
-        'inclusion powered by blockchains. We are partnered with Aptos to build foundational dApps and other infrastructure which ' +
-         'enable adoption of their L1, such as development tooling, EVMs, AMMs, and more. The Move IntelliJ ' +
-         'IDE and Move Playground are just the beginning. ' +
-         'The burgeoning ecosystem of Move-based, inclusion-focused infrastructure is where Pontem has a competitive ' +
-          'advantage. Over the past four years, our team has developed deep expertise in Move. After working firsthand ' +
-         'with the tech developed by Meta and Diem engineers, we knew we had to be ‘first Movers’ on developing a Move Virtual Machine '+
-         'to expand the reach of this incredible technology. Our skill set encompasses the essential building blocks for modern blockchain '+
-         'development and we feel we are not just well-positioned for the future, but also in a unique position to build it. Given this unique '+
-         'position we are in, we will create the first product development studios for the Aptos Blockchain across 3 key verticals: protocols, '+
-        ' developer tooling and infrastructure. With our skills and experience,',
+        desc:  'Thunder — is an NFT marketplace with superior experience built on the Fuel Network. Boom. ' +
+        'We’re aiming to build the largest NFT marketplace built on top of the fastest execution layer in the entire Ethereum ecosystem. Ambitious? All it takes is a driven team that’s up for the challenge, and we got it. ' +
+         'What is notable about our platform is that it supports bulk execution. This ' +
+         'unique feature will allow you to perform a series of operations in one go — streamlining the process of managing and trading NFTs.',
+       
           
         imgUrl: img10,
-        category: 'Defi',
-        discord: ' https://discord.com/invite/44QgPFHYqs',
-        medium: 'https://pontem.medium.com/',
-        website: 'https://pontem.network/',
-        telegram:'https://t.me/pontemnetworkchat'
-       
+        category: 'NFT',
+        discord: 'https://discord.com/invite/thundernftmarket',
+        medium: 'https://medium.com/@ThunderbyFuel',
+        website: 'https://thundernft.market/',
+       twitter: "https://twitter.com/ThunderbyFuel",
+       status: "Stealth"
       },
     {
         id: "04",
         title: "Orao",
-        desc: 'Econia is a protocol that lets anyone in the world trade a digital asset with anyone else in the world, at whatever price they want.' +
-        ' More specifically, Econia is an order book, a fundamental financial tool ' +
-        'utilized by financial institutions like stock markets, except unlike the New York Stock ' +
-        'Exchange or the NASDAQ, Econia is open-source and decentralized. ' +
-        'Econia is in development ' +
-        'Econia is currently under development, and this is the second major iteration that has shipped to the  blockchain. ' +
-        'If you are a builder and you are interested in working with Econia, first take a look at the , as ' +
-        ' this provides a technical breakdown that will provide some context for the system design. Then try out the Econia , ' +
-        'and lets see what we can build together! Devnet account' +
+        desc: 'Our oracle system provides a large variety of secure data at high speed in real-time. From general data to local weather, insurance services and trading algorithms are enabled through 37,000 data points. ' +
+        'Combined with over 200 data sources, variations are endless. Accurate data is delivered to your smart contracts giving you an advantage over competitors through customization. ',
        
-        'As of 2022-08-11, Econia is initialized on the Aptos devnet at account . ' +
-        'Note that the Aptos devnet typically resets each Thursday, occasionally with breaking changes. Pending the ' +
-       
-         'reconciliation of such breaking changes after devnet reset, Econia is typically republished as soon  ' +
-        'as the necessary patches are implemented. The above listing is the most up-to-date listing for the official address, so if there is ' +
-        ' nothing published at it, then patches are likely underway for the most recent weekly resets breaking changes. '
-        , 
+      
         imgUrl: img4,
-        category: 'Defi',
-        discord:'https://discord.com/invite/Z7gXcMgX8A',
-        medium:'https://medium.com/econialabs',
-        twitter:'https://twitter.com/EconiaLabs',
-        website: 'https://www.econialabs.com/',
+        category: 'Oracle',
+        medium:'https://orao.medium.com/',
+        twitter:'https://twitter.com/OraoNetwork',
+        website: 'https://orao.network/',
+        status: "Building"
               
       },
     {
         id: "05",
         title: "Unic",
-        desc:  'ONTO Wallet: A Multi-Chain Identity Wallet About ONTO Web Wallet '+
-        'ONTO Web Wallet is a decentralized cross-chain desktop '+ 
-        'wallet for Chrome browser, which supports a variety of digital assets '+
-        'and dApps on several blockchains including Ontology, Ethereum, Binance '+ 
-        'Smart Chain, Polkadot and more. With ONTO Web Wallet, users can easily create '+
-        'their own decentralized digital identity (ONT ID) which fully protects their private dat '+
-        'a through an encryption algorithm, and enables the one-click creation and '+
-         'management of digital assets on multiple public chains. ',
+        desc:  'Verify your NFT by scanning. Powered by Fuel Network.',
         imgUrl: img5,
-        category: 'Wallet',
-        website: 'https://onto.app/',
-        medium:  'https://theontoteam.medium.com/',
-        twitter:  'https://twitter.com/ONTOWallet',
-        
+        category: 'NFT',
+        website: 'https://unic.io/',
+        twitter:  'https://twitter.com/0xUNIC',
+        discord: "https://discord.com/invite/hnAeGRMzRj",
+        status: "Stealth"
        
       },
     {
         id: "06",
         title: "Fuel Panks",
-        desc:  'Electronic markets are chaotic. Buyers and sellers interact '+
-        'rapidly placing orders, canceling orders and replacing orders in a desperate '+
-        'bid to stay ahead of the market and get the best price possible for their trade. '+ 
-       'Market participants come in many forms. Retail traders may place trades with patience and '+
-       'a degree of nervousness which sometimes turns into indignation. Systematic strategies consume hoards '+
-        'of market data and attempt to determine price movements. On top of this market makers take both sides '+
-       'of the book and attempt to bring some '+
-        'semblance of liquidity and normalcy to the ensuing stampede. ',
+        desc:  '10K dystopian punks ready to conquer the Fastest Execution Layer',
         imgUrl: img6,
-        category: 'Infrastructure',
-          website: 'https://laminar.markets/',
-          discord: 'https://t.co/kgMlCchRSI',
-          medium: 'https://t.co/fvt8ghFidI',
+        category: 'NFT',
+          // website: 'https://laminar.markets/',
+          // discord: 'https://t.co/kgMlCchRSI',
+          twitter: 'https://twitter.com/FuelPunks',
+          status: "Building"
 
 
        
@@ -155,49 +108,34 @@ import img13 from '../../Assets/img/Fuel pictures/projects/sway.jpg'
     {
         id: "08",
         title: "Pool Shark",
-        desc: 'A safe and powerful crypto wallet that brings all of the benefits of Solana to you ' +
-        'Solflare is a full-featured crypto wallet, available both on web and as an extension, ' +
-         'for Solana and SPL tokens. It allows you to send, receive and securely store tokens on the Solana blockchain,' +
-        'and allows access to decentralized applications on Solana. ' +
-        
-        'Solflare includes support for staking Solana to the validator of your choice, as well as ' +
-        'a Swap function that allows users to swap between tokens within their wallet. Solflare also ' +
-        ' includes NFT support with full metadata and is compatible with Ledger devices. ',
+        desc: 'The Poolshark Protocol is a set of smart contracts which implements directional liquidity, ' +
+        'an alternative to the often popular bidirectional liquidity, seen in popular AMMs such as Uniswap and Curve ' +
+         'The concept of directional liquidity along with bidirectional liquidity are intended to ' +
+        'offset each others weaknesses. Buy-and-hold strategies are enabled by directional liquidity while bidirectional liquidity focuses on fee capture from the point of the liquidity provider ',
         imgUrl: img7,
-        category: 'Wallet',
-        website : 'https://solflare.com/',
-        discord:'https://discord.com/invite/solrisefinance',
-        medium: 'https://medium.com/solrise-finance',
+        category: 'Infrastructure',
+        website : 'https://docs.poolsharks.io/',
+        twitter:'https://twitter.com/poolsharks_labs',
+        status: "Building"
        
       },
    
     {
         id: "10",
         title: "Acumen",
-        desc: 'Why Tsunami? ' +
-        'Spot Traders and LPs Everywhere Are Underserved AMMs ' +
+        desc: 'The acumen micro finance dapp bridges crypto and traditional finance allowing ' +
+        'DeFi users to earn an attractive, stable, and uncorrelated yield while ' +
         
-        'While AMMs have taken spot trading from 0 -> 1 with decentralized exchanges, the blemishes and imperfections with such ' +
-        ' old models have come to light. AMMs like Uniswap, Curve, and Balancer ' + 
-        'use constant product curves. In this curve lays many of the problems that exist for both traders and LPs. ' +
-        'With constant product curves, traders experience significant slippage and open ' +
-        'themselves to risk-free front running by others in the system. And while traders ' +
-        ' have it tough, LPs carry the largest burden in constant product curve AMMs.' + 
-        'LPs fundamentally make markets and sell volatility. The source of loss for LPs is twofold. ' +
-        '1) LPs sell volatility way too cheaply ' + 
-        '2) LPs use incorrect market price to make trades with external agents in the system ' +
-        'At first, many brushed off these losses as IL, or impermanent loss, but the' +
-        ' market has observed that these losses tend to become permanent over time and represent ' +
-         ' a failure of the constant product curve to quote the price of assets fairly.' +
-        ' Trader Problems: Slippage, Front running incentive ' +
-        'LP Problems: LPing is unsustainable and destroying the capital of LPs, ' +
-         'LPs get arbitraged, sell volatility too cheaply, and sustain a not-so-impermanent loss ' +
-        'Perpetual And Margin Traders are Underserved VAMMs, ' +
-        'Virtual AMMs, or VAMMs, attempted',
+        'engendering an equitable environment where Small and Medium size ' +
+        ' Enterprises(SMEs) and entrepreneurs can prosper. ',
+        
         imgUrl: img11,
-        category: 'Defi',
-        website:'https://tsunami.finance/',
-        discord:'https://discord.com/invite/tsunamifinance',
+        category: 'DeFi',
+        website:'https://acumen.network/',
+        twitter: "https://twitter.com/acumenofficial",
+        medium: "https://acumenofficial.medium.com/",
+        discord:'https://discord.com/invite/UXDnngxRmn',
+        status: "Building"
 
        
        
@@ -205,45 +143,45 @@ import img13 from '../../Assets/img/Fuel pictures/projects/sway.jpg'
     {
         id: "11",
         title: "Micro chain",
-        desc: "Discover art, culture, & digital expression. The premiere NFT marketplace, built on Aptos.",
+        desc: "Are you ready for the future of decentralized exchanges? Introducing the newest sensation, a DEX built on Fuel, coming to a wallet near you in early 2023.",
         imgUrl: img3,
-        category: 'NFT',
-        discord:'https://discord.com/invite/SWVxuJkFSH',
-        website:'https://www.topaz.so/',
-        twitter:'https://twitter.com/TopazMarket',
+        category: 'DeFi',
+        website:'https://microchain.systems/',
+        twitter:'https://twitter.com/MicrochainSys',
+        status: "Building"
        
       },
     {
         id: "12",
         title: "Fuel Nomen",
-        desc: 'An autonomous, algorithmic liquidity protocol built on Aptos. ' +
-        'Vial is a pooled interest rate protocol which allows users to lend or borrow assets on Aptos. ' +
-        'Interest rates are determined algorithmically based on pool utilization: the ratio of borrowed to supplied assets.' +
-        'Our mission is to accelerate the adoption of DeFi for everyone. ' ,
+        desc: 'Fuel Nomen is the blockchain name system of the world’s fastest modular execution layer, Fuel Network ',
         imgUrl: img2,
-        category: 'Defi',
-        website: 'https://t.co/fY0PwlU9X7',
-        discord: 'https://discord.com/invite/fMjZTVsSfe',
-
-       
-      },
-
-
-      {
-        id: "13",
-        title: "WebGum",
-        desc: ' What is the Aptos Name Service? ' +
-        'Leveraging the power of Aptos Tokens & Move we have built the decentralized, composable identity layer of Aptos.' +
-        ' Under the hood, ANS is a smart contract that maps a name to an Aptos address. Claiming a name mints you a special NFT Token that gives you the sole power to edit the address of that name. That Token is composable' +
-        ' and can be bought, sold and traded as you see fit.' ,
-        imgUrl: img8,
         category: 'Infrastructure',
-        website: 'https://www.aptosnames.com/',
-        twitter:'https://twitter.com/aptosnames',
-        discord:'https://discord.com/invite/kPjbyhY5FE',
+        website: 'https://www.nomen.sh/',
+        twitter: 'https://twitter.com/fuelnomen',
+        medium: 'https://fuelnomen.medium.com/',
+        status: "Building"
+
+        // https://fuelnomen.medium.com/
+      },
+
+
+      // {
+      //   id: "13",
+      //   title: "WebGum",
+      //   desc: ' What is the Aptos Name Service? ' +
+      //   'Leveraging the power of Aptos Tokens & Move we have built the decentralized, composable identity layer of Aptos.' +
+      //   ' Under the hood, ANS is a smart contract that maps a name to an Aptos address. Claiming a name mints you a special NFT Token that gives you the sole power to edit the address of that name. That Token is composable' +
+      //   ' and can be bought, sold and traded as you see fit.' ,
+      //   imgUrl: img8,
+      //   category: 'Infrastructure',
+      //   website: 'https://www.aptosnames.com/',
+      //   twitter:'https://twitter.com/aptosnames',
+      //   discord:'https://discord.com/invite/kPjbyhY5FE',
+      //   status: "Building"
 
        
-      },
+      // },
      
       
  
@@ -252,12 +190,14 @@ import img13 from '../../Assets/img/Fuel pictures/projects/sway.jpg'
       {
         id: "24",
         title: "Elix",
-        desc:  ' ',
+        desc:  'Elix is a hybrid automated market maker operating on Fuel, designed to allow highly efficient trading while maintaining low slippage. Fundamentally, Elix supports similarly priced, pegged assets as well as dynamic, non-pegged assets. This is realized through an advanced approach to our DEX’s bonding curve. Most importantly, we are eager to provide the most smooth and secure trading and LPing experience to our future users. That’s why the first version of Elix will fundamentally build on battle-tested AMM designs, mostly borrowing concepts from Curve.',
         imgUrl: img12,
-        category: 'Wallet',
-        website: 'https://onto.app/',
-        medium:  'https://theontoteam.medium.com/',
-        twitter:  'https://twitter.com/ONTOWallet',
+        category: 'DeFi',
+        medium:  'https://medium.com/@elixfinance/introducing-elix-finance-21afedd7c6f0',
+        discord: 'https://discord.com/invite/6WaN3dwHmZ',
+        twitter:  'https://twitter.com/elixfinance',
+        website: 'https://elix.finance/',
+        status: "Stealth"
         
        
       },

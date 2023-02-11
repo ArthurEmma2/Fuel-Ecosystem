@@ -1,9 +1,9 @@
 import React from 'react'
 
-function News() {
+function Podcast() {
   return (
     <div>News</div>
   )
 }
 
-export default News
+export default Podcast

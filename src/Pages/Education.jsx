@@ -39,7 +39,7 @@ function Education() {
             <img src={img2} width='200px' alt='edu' />
             
               <h1 className='e-header text-xl opacity-70 font-bold'> Decentralize.</h1><br />
-              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7 w-full  md:w-[600px]'>
+              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7 w-full  lg:w-[600px]'>
               Decentralized: In a blockchain context, decentralization means that
                the network operates independently from the control of a centralized 
                intermediary, usually evidenced by a
@@ -61,7 +61,7 @@ function Education() {
             <img src={speed} width='200px' alt='edu' />
               
               <h1 className='e-header text-xl opacity-70 font-bold'>Parallel transaction execution</h1><br />
-              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7 w-full md:w-[600px]'>
+              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7 w-full lg:w-[600px]'>
               Fuel boasts unparalleled processing power through its parallel execution of transactions via 
               UTXO-based strict state access lists. This allows Fuel to utilize multiple threads and cores 
               of your CPU, maximizing its capabilities and outpacing single-threaded blockchains.
@@ -75,7 +75,7 @@ function Education() {
             <img className='e-header' src={move} width='200px' alt='edu' />
            
               <h1 className='e-header text-xl opacity-70 font-bold'>Sway Language</h1><br />
-              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7  w-full md:w-[550px]'>
+              <p className='text-[#90E6D1] items-center tracking-[2px] leading-7  w-full lg:w-[550px]'>
               Fuel provides a powerful and sleek developer experience with our own domain-specific language,
                called Sway, and a supportive toolchain, called Forc. Our development environment retains the benefits of 
                smart contract languages like Solidity, while adopting the paradigms introduced in the Rust tooling ecosystem.

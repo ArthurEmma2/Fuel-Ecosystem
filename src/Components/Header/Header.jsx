@@ -9,7 +9,7 @@ import {NavLink, Link} from 'react-router-dom'
 const NAV__LINKS = [
     {
         display: 'Home',
-        url: '/home' 
+        url: '/' 
     },
 
     {
@@ -20,6 +20,14 @@ const NAV__LINKS = [
         display: 'Education',
         url: '/education' 
     },
+    {
+        display: 'Articles',
+        url: '/articles' 
+    },
+    // {
+    //     display: 'Podcast',
+    //     url: '/podcast' 
+    // },
   
     {
         display: 'Metric',
@@ -29,10 +37,7 @@ const NAV__LINKS = [
         display: 'Jobs',
         url: '/jobs' 
     },
-    {
-        display: 'Articles',
-        url: '/articles' 
-    },
+  
    
 ]
 

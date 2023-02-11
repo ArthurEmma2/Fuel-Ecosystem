@@ -54,7 +54,7 @@ let dataSearch =project.filter(item =>{
     
     <div className='container'>
        <div className='text-center items-center'>
-        <h2 className='e-header text-4xl text-center md:text-5xl lg:text-6xl mb-3 font-bold' > The driven power is building</h2>
+        <h2 className='e-header text-4xl text-center md:text-5xl lg:text-6xl mb-3 font-bold w-auto lg:w-[670px] mx-auto' >The driving force is gaining momentum.</h2>
         <p className='text-white opacity-70 text-[15px] text-center md:text-[20px] font-bold tracking-wider my-8'>Your guide to what’s live today and coming soon on Fuel!</p>
         <div className='grid grid-flow-col items-center justify-center mt-10 gap-10'>
           <a target='_blank' rel="noreferrer" href='https://docs.google.com/forms/d/e/1FAIpQLSc1T6M3Hix12fLQIBiUIQCfg-V4uNiZoHrVKn656-_L1Keoeg/viewform' >
@@ -81,13 +81,16 @@ let dataSearch =project.filter(item =>{
               {
               dataSearch.map((item, id) =>{
           return(
-            <motion.div
-            layout   >
+            <>
+              <motion.div
+            layout >
             <AnimatePresence>
 
                 <EcosystemCards item={item} key={id} />
                 </AnimatePresence>
                     </motion.div>
+            </>
+          
           )
           
         })}
