@@ -9,7 +9,7 @@ function Articles() {
  <div className=' flex-col lg:flex-row flex lg:justify-between items-center mt-52'>
  <div>
     <header className='text-4xl e-header font-bold tracking-[2px]'>Articles</header>
-    <p className='font-extrabold text-[#1DE9B6] text-3xl lg:text-6xl w-full md:w-[750px]'>Discover all the recent  news and articles  in the Aptos ecosystem</p>
+    <p className='font-extrabold text-[#1DE9B6] text-3xl lg:text-6xl w-full md:w-[750px]'>Discover all the recent  news and articles  in the Fuel ecosystem</p>
  </div>
  <div className=''>
 <img className='hidden md:flex' src={image} alt='' />
