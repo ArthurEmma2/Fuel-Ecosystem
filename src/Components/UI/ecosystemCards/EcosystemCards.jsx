@@ -18,7 +18,7 @@ function EcosystemCards(props) {
                 <div className="flex pt-[24px] ml-2 gap-8">
                 <div className=''>
                 <Link to={`/ecosystem/${title}`}>
-                    <img src={imgUrl}  alt='logo' className='e-logo'/>
+                    <img loading='lazy' src={imgUrl}  alt='logo' className='e-logo'/>
                     </Link>
                 </div>
                 <div className='grid grid-flow-row'>

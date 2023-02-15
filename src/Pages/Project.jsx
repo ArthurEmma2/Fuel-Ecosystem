@@ -23,7 +23,7 @@ const singleCard = ECOSYSTEM__DATA.find((item) => item.title === title )
      fill="rgba(255,255,255,1)"/></svg></Link></button>
       <div style={{justifyContent:"center", display:"flex", flexDirection:"column", alignItems:"center"}}>
         <div>
-        <img src={singleCard.imgUrl}  width='300px' className='w-full md:w-[300px]' alt=''/>
+        <img loading='lazy' src={singleCard.imgUrl}  width='300px' className='w-full md:w-[300px]' alt=''/>
       <p className=' text-white text-center text-[15px] my-4'> Status : <i className='text-[12px]'>{singleCard.status}</i></p>
         </div>
       <div className='text-[#90E6D1] text-5xl font-bold mb-5 text-left lg:text-center'>{singleCard.title}</div>
