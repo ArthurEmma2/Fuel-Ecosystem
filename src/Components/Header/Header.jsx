@@ -30,7 +30,7 @@ const NAV__LINKS = [
     // },
   
     {
-        display: 'Metric',
+        display: 'Metrics',
         url: '/metrics' 
     },
     {

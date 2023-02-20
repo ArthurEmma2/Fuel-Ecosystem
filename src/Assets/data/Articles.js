@@ -1,12 +1,16 @@
 
-import img from '../img/Fuel pictures/articles/80_million.jpeg'
+import img from '../img/Fuel pictures/articles/fuel_5.png'
 import img1 from '../img/Fuel pictures/articles/intro.jpeg'
 import img2 from '../img/Fuel pictures/articles/exploring_fuel.webp'
 import img3 from '../img/Fuel pictures/articles/case_mdular.webp'
 import img4 from '../img/Fuel pictures/articles/Beta1.png'
 import img5 from '../img/Fuel pictures/Blogs/Beta-2-TestnetV2.png'
-import img7 from '../img/Fuel pictures/Blogs/modular_ed.avif'
 import img6 from '../img/Fuel pictures/Blogs/token.webp'
+import img7 from '../img/Fuel pictures/Blogs/modular_ed.avif'
+import img8 from '../img/Fuel pictures/articles/fresh_ap.png'
+import img10 from '../img/Fuel pictures/articles/fuel_pille.png'
+import img11 from '../img/Fuel pictures/articles/swaySwap.png'
+import img9 from '../img/Fuel pictures/articles/abst.jpg'
 export const article = [
     
     {
@@ -63,5 +67,29 @@ export const article = [
                                 title: "How to deploy your own token on Fuel Testnet using Rust SDK?",
                                 img: img6,
                                 url: "https://medium.com/@swaygang/how-to-deploy-your-own-token-on-fuel-testnet-using-rust-sdk-99b48a977e19"
+                                },
+                            {
+                                id:  9,
+                                title: "Account Abstraction for Everyone Else: The Complete Guide to Understanding AA in 2023",
+                                img: img9,
+                                url: "https://camiinthisthang.substack.com/p/account-abstraction-for-everyone"
+                                },
+                            {
+                                id:  10,
+                                title: "Ethereum Scalability: Why Everyone Should Be Thinking About Fuel",
+                                img: img10,
+                                url: "https://mirror.xyz/camiinthisthang.eth/WsXmoZkrkY-w4w05nzyFrfP4n4AWM4qhmsyawqKFNTM"
+                                },
+                            {
+                                id:  11,
+                                title: "SwaySwap launch on Ethereum's Modular Execution Layer",
+                                img: img11,
+                                url: "https://etherworld.co/2022/06/27/swayswap-launch-on-ethereums-modular-execution-layer/"
+                                },
+                            {
+                                id:  12,
+                                title: "Fuel: A Fresh Approach To Scaling Blockchains",
+                                img: img8,
+                                url: "https://research.nansen.ai/article/329/fuel-a-fresh-approach-to-scaling-blockchains"
                                 },
 ]

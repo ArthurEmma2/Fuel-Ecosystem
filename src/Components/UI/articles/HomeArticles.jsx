@@ -9,7 +9,7 @@ function HomeArticles() {
       <div className='flex items-center justify-between'>
       <div>
         <h2 className='e-header text-2xl text-left  md:text-5xl lg:text-6xl mb-3 font-bold capitalize'>Fuel Articles</h2>
-        <p className='text-white opacity-70 text-[15px] text-left md:text-[25px] font-bold tracking-wider w-auto lg:w-[500px]'>
+        <p className='text-white opacity-70 text-[15px] text-left md:text-[25px] font-bold tracking-wider w-[220px] lg:w-[500px]'>
         Discover all the recent news and articles in the Fuel ecosystem</p>
         </div>
 
@@ -27,7 +27,7 @@ function HomeArticles() {
                 <img className='hover:scale-110 duration-500' loading='lazy' src={img} alt='' />
                 </a>
                 <p className='mt-4'>{title}</p>
-                <a className='text-xs text-[#1DE9B6]' href={url}>Read more ...</a>
+                <a className='text-xs text-[#1DE9B6]' target="_blank"  rel="noreferrer" href={url}>Read more ...</a>
             </div>
           )
         })}

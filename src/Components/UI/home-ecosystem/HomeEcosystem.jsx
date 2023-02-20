@@ -14,8 +14,8 @@ function HomeEcosystem() {
       <div className='flex items-center justify-between'>
       <div>
         <h2 className='e-header text-2xl text-left  md:text-5xl lg:text-6xl mb-3 font-bold capitalize'>Fuel Ecosystem</h2>
-        <p className='text-white opacity-70 text-[15px] text-left md:text-[25px] font-bold tracking-wider'>
-       Here are some of the curated list <br></br>
+        <p className='text-white opacity-70 text-[15px] text-left md:text-[25px] font-bold tracking-wider  w-[220px] lg:w-[500px]'>
+       Here are some of the curated list
         of projects building on Fuel</p>
         </div>
 
