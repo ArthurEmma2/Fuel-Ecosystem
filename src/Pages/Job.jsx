@@ -1,5 +1,5 @@
 import React from "react";
-import fuel from "../Assets/img/Fuel pictures/Logos/fuel_logo.png";
+import fuel from "../Assets/img/Fuel pictures/projects/fuel_l.jpg";
 import img from "../Assets/img/Fuel pictures/articles/gr_11.webp";
 
 function Job() {
@@ -111,7 +111,7 @@ function Job() {
             <div className="flex justify-between items-center">
               <div className="flex justify-center items-center">
                 <div>
-                  <img className="mt-5" src={fuel} width="70px" alt="logo" />
+                  <img className="" src={fuel} width="70px" alt="logo" />
                 </div>
                 <div className="m-7">
                   <a
@@ -154,7 +154,7 @@ function Job() {
             <div className="flex justify-between items-center">
               <div className="flex justify-center items-center">
                 <div>
-                  <img className="mt-5" src={fuel} width="70px" alt="logo" />
+                  <img className="" src={fuel} width="70px" alt="logo" />
                 </div>
                 <div className="m-7">
                   <a
