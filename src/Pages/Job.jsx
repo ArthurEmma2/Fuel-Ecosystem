@@ -33,7 +33,7 @@ function Job() {
         </a>
         <div className="mt-32">
           <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
-            Engineering
+           ENGINEERING
           </header>
           <div className="bg-[#1DE9B6] rounded-md shadow-md shadow-slate-600 w-full h-32 items-center px-4">
             <div className="flex justify-between items-center">
@@ -45,17 +45,17 @@ function Job() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://boards.greenhouse.io/aptoslabs/jobs/4016058005"
+                    href="https://jobs.lever.co/fuellabs/408033a5-287b-4e52-a6b9-5a348140238b"
                   >
                     <button className="text-black text-[12px] md:text-2xl  font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                      Front End Engineer
+                     Senior Front End Engineer
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
-                    Aptos Labs
+                    Fuel Labs
                   </p>
                   <p className="opacity-80 text-[10px] md:text-xl">
-                    Remote-Global
+                    Remote
                   </p>
                 </div>
               </div>
@@ -63,7 +63,7 @@ function Job() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://boards.greenhouse.io/aptoslabs/jobs/4016058005"
+                  href="https://jobs.lever.co/fuellabs/408033a5-287b-4e52-a6b9-5a348140238b"
                 >
                   <button className="text-black">
                     Apply now<i class="ri-arrow-right-fill"></i>
@@ -82,23 +82,23 @@ function Job() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://boards.greenhouse.io/aptoslabs/jobs/4082272005"
+                    href="https://jobs.lever.co/fuellabs/a03879ee-44b7-438f-bb59-9b7f3d0aa5a1"
                   >
                     <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                      Developer Relations Engineer - APAC
+                    Senior Full-stack Software Engineer [TypeScript]
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
-                    Aptos Labs
+                  Fuel Labs
                   </p>
-                  <p className="opacity-80 text-[10px] md:text-xl">Singapore</p>
+                  <p className="opacity-80 text-[10px] md:text-xl">Remote</p>
                 </div>
               </div>
               <div className="hidden md:flex">
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://boards.greenhouse.io/aptoslabs/jobs/4082272005"
+                  href="https://jobs.lever.co/fuellabs/a03879ee-44b7-438f-bb59-9b7f3d0aa5a1"
                 >
                   <button className="text-black">
                     Apply now<i class="ri-arrow-right-fill"></i>
@@ -117,14 +117,14 @@ function Job() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://boards.greenhouse.io/aptoslabs/jobs/4002408005"
+                    href="https://jobs.lever.co/fuellabs/ef39d2c4-c245-4d8e-ae13-57400b841328"
                   >
                     <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                      Production Engineer
+                    Senior Software Security Engineer
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
-                    Aptos Labs
+                    Fuel Labs
                   </p>
                   <p className="opacity-80 text-[10px] md:text-xl">
                     Remote-Global
@@ -135,7 +135,7 @@ function Job() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://boards.greenhouse.io/aptoslabs/jobs/4002408005"
+                  href="https://jobs.lever.co/fuellabs/ef39d2c4-c245-4d8e-ae13-57400b841328"
                 >
                   <button className="text-black">
                     Apply now<i class="ri-arrow-right-fill"></i>
@@ -144,6 +144,55 @@ function Job() {
               </div>
             </div>
           </div>
+     
+        </div>
+        <div className="mt-32">
+          <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
+            DEV REL
+          </header>
+          <div className="bg-[#1DE9B6] rounded-md shadow-md mt-12 shadow-slate-600 w-full h-32 items-center px-4 mb-12">
+            <div className="flex justify-between items-center">
+              <div className="flex justify-center items-center">
+                <div>
+                  <img className="mt-5" src={fuel} width="70px" alt="logo" />
+                </div>
+                <div className="m-7">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://jobs.lever.co/fuellabs/5f85d60c-0df5-476f-abbb-9cca6deb5d7a"
+                  >
+                    <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
+                    Developer Relations
+                    </button>{" "}
+                  </a>
+                  <p className="font-semibold  text-[10px] md:text-xl">
+                    Fuel Labs
+                  </p>
+                  <p className="opacity-80 text-[10px] md:text-xl">
+                    Remote
+                  </p>
+                </div>
+              </div>
+              <div className="hidden md:flex">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://jobs.lever.co/fuellabs/5f85d60c-0df5-476f-abbb-9cca6deb5d7a"
+                >
+                  <button className="text-black">
+                    Apply now<i class="ri-arrow-right-fill"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+        <div className="mt-32">
+          <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
+          GROWTH
+          </header>
           <div className="bg-[#1DE9B6] rounded-md shadow-md shadow-slate-600 w-full h-32 items-center px-4">
             <div className="flex justify-between items-center">
               <div className="flex">
@@ -154,17 +203,17 @@ function Job() {
                   <a
                     target="_blank"
                     rel="noreferrer"
-                    href="https://boards.greenhouse.io/aptoslabs/jobs/4067191005"
+                    href="https://jobs.lever.co/fuellabs/0a88ee0d-cee3-44de-9ac2-b2c159ec121b"
                   >
                     <button className="text-black text-[12px] md:text-2xl  font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                      Developer Relations Engineer - Korea
+                    Marketing Manager
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
-                    Aptos Labs
+                    Fuel Labs
                   </p>
                   <p className="opacity-80 text-[10px] md:text-xl">
-                    Seoul, Korea
+                    Remote
                   </p>
                 </div>
               </div>
@@ -172,7 +221,7 @@ function Job() {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://boards.greenhouse.io/aptoslabs/jobs/4067191005"
+                  href="https://jobs.lever.co/fuellabs/0a88ee0d-cee3-44de-9ac2-b2c159ec121b"
                 >
                   <button className="text-black">
                     Apply now<i class="ri-arrow-right-fill"></i>
@@ -181,6 +230,7 @@ function Job() {
               </div>
             </div>
           </div>
+         
         </div>
       </section>
     </>
