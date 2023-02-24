@@ -6,7 +6,7 @@ function Job() {
   return (
     <>
       <section className="container mt-32">
-        <div className="flex  items-center flex-col md:flex-row overflow-hidden">
+        <div className="flex items-center flex-col md:flex-row overflow-hidden">
           <div className="">
             <p className="text-white text-3xl lg:text-2xl font-extrabold e-header">
               {" "}
@@ -18,22 +18,23 @@ function Job() {
             </p>
           </div>
 
-          <div className=" mt-5">
+          <div className=" hidden lg:flex  mt-5">
             <img width="400px" src={img} alt="" />
           </div>
         </div>
+
         <a
           target="_blank"
           rel="noreferrer"
           href="https://docs.google.com/forms/d/e/1FAIpQLSeLVScOiLz7A32Av92pe_1iej7gMR6i_MRao3JZcK5HBoOLAw/viewform"
         >
-          <button className="bg-white shadow-md shadow-slate-400 text-center mx-auto py-2 px-10 rounded-lg text-xl hover:opacity-40  md:absolute md:top-[400px] lg:top-[560px]">
+          <button className="bg-white shadow-md shadow-slate-400 text-center mx-auto py-2 px-10 rounded-lg text-xl hover:opacity-40 mt-6 lg:mt-auto  md:absolute md:top-[400px] lg:top-[560px]">
             Post a job
           </button>
         </a>
         <div className="mt-32">
           <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
-           ENGINEERING
+            ENGINEERING
           </header>
           <div className="bg-[#1DE9B6] rounded-md shadow-md shadow-slate-600 w-full h-32 items-center px-4">
             <div className="flex justify-between items-center">
@@ -48,15 +49,13 @@ function Job() {
                     href="https://jobs.lever.co/fuellabs/408033a5-287b-4e52-a6b9-5a348140238b"
                   >
                     <button className="text-black text-[12px] md:text-2xl  font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                     Senior Front End Engineer
+                      Senior Front End Engineer
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
                     Fuel Labs
                   </p>
-                  <p className="opacity-80 text-[10px] md:text-xl">
-                    Remote
-                  </p>
+                  <p className="opacity-80 text-[10px] md:text-xl">Remote</p>
                 </div>
               </div>
               <div className="hidden md:flex">
@@ -85,11 +84,11 @@ function Job() {
                     href="https://jobs.lever.co/fuellabs/a03879ee-44b7-438f-bb59-9b7f3d0aa5a1"
                   >
                     <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                    Senior Full-stack Software Engineer [TypeScript]
+                      Senior Full-stack Software Engineer [TypeScript]
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
-                  Fuel Labs
+                    Fuel Labs
                   </p>
                   <p className="opacity-80 text-[10px] md:text-xl">Remote</p>
                 </div>
@@ -120,7 +119,7 @@ function Job() {
                     href="https://jobs.lever.co/fuellabs/ef39d2c4-c245-4d8e-ae13-57400b841328"
                   >
                     <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                    Senior Software Security Engineer
+                      Senior Software Security Engineer
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
@@ -144,7 +143,6 @@ function Job() {
               </div>
             </div>
           </div>
-     
         </div>
         <div className="mt-32">
           <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
@@ -163,15 +161,13 @@ function Job() {
                     href="https://jobs.lever.co/fuellabs/5f85d60c-0df5-476f-abbb-9cca6deb5d7a"
                   >
                     <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                    Developer Relations
+                      Developer Relations
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
                     Fuel Labs
                   </p>
-                  <p className="opacity-80 text-[10px] md:text-xl">
-                    Remote
-                  </p>
+                  <p className="opacity-80 text-[10px] md:text-xl">Remote</p>
                 </div>
               </div>
               <div className="hidden md:flex">
@@ -186,12 +182,11 @@ function Job() {
                 </a>
               </div>
             </div>
-         
           </div>
         </div>
         <div className="mt-32">
           <header className="text-white text-4xl opacity-70 font-bold text-left underline  underline-offset-8 mb-10">
-          GROWTH
+            GROWTH
           </header>
           <div className="bg-[#1DE9B6] rounded-md shadow-md shadow-slate-600 w-full h-32 items-center px-4">
             <div className="flex justify-between items-center">
@@ -206,15 +201,13 @@ function Job() {
                     href="https://jobs.lever.co/fuellabs/0a88ee0d-cee3-44de-9ac2-b2c159ec121b"
                   >
                     <button className="text-black text-[12px] md:text-2xl  font-bold hover:underline hover:underline-offset-4 hover:transition-all">
-                    Marketing Manager
+                      Marketing Manager
                     </button>{" "}
                   </a>
                   <p className="font-semibold  text-[10px] md:text-xl">
                     Fuel Labs
                   </p>
-                  <p className="opacity-80 text-[10px] md:text-xl">
-                    Remote
-                  </p>
+                  <p className="opacity-80 text-[10px] md:text-xl">Remote</p>
                 </div>
               </div>
               <div className="hidden md:flex">
@@ -230,7 +223,6 @@ function Job() {
               </div>
             </div>
           </div>
-         
         </div>
       </section>
     </>
