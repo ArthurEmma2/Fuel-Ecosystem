@@ -1,5 +1,5 @@
 {
-  "name": "dapptos",
+  "name": "fuelecosystem",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^3.0.0-beta.6",
     "framer-motion": "^7.3.5",
-    "netlify-cli": "^12.2.0",
+    "html-minifier-terser": "^7.1.0",
+    "netlify-cli": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-rotating-text": "^1.4.1",
