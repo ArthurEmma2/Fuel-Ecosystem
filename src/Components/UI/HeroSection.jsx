@@ -17,8 +17,8 @@ function HeroSection() {
                                     typingInterval={100} items={['locus', 'center']} />  of <span
                                     >Fuel</span></h1>  
                 <h3 className='text-left text-[17px] md:text-[25px] text-white opacity-70 mt-20 md:text-left lg:text-center tracking-[2px] leading-[30px]'>     
-              Fuel Ecosystem, a  platform to explore everything about Fuel major
-                <p data-aos='fade-down'>  features ( education, articles, jobs offers, metrics and projects dashboard).</p> </h3>
+              Fuel Ecosystem, a  platform to explore everything about Fuel major 
+                <p data-aos='fade-down'>  features ( education, Latest articles and blogs, job board,<br /> metrics and projects dashboard).</p> </h3>
       </div>
     </section>
   )

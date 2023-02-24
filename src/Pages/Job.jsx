@@ -25,7 +25,7 @@ function Job() {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://forms.gle/CS9nWkA5egwsT2W47"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSeLVScOiLz7A32Av92pe_1iej7gMR6i_MRao3JZcK5HBoOLAw/viewform"
         >
           <button className="bg-white shadow-md shadow-slate-400 text-center mx-auto py-2 px-10 rounded-lg text-xl hover:opacity-40  md:absolute md:top-[400px] lg:top-[560px]">
             Post a job
