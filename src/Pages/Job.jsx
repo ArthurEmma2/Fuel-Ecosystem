@@ -83,7 +83,7 @@ function Job() {
                     rel="noreferrer"
                     href="https://jobs.lever.co/fuellabs/a03879ee-44b7-438f-bb59-9b7f3d0aa5a1"
                   >
-                    <button className="text-black text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
+                    <button className="text-black text-left text-[12px] md:text-2xl font-bold hover:underline hover:underline-offset-4 hover:transition-all">
                       Senior Full-stack Software Engineer [TypeScript]
                     </button>{" "}
                   </a>
