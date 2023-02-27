@@ -10,5 +10,5 @@
 
 ## Front-End Stacks
 - ### React JS
-- ### JAVASCRIPT
+- ### JavaScript
 - ### Tailwind CSS
