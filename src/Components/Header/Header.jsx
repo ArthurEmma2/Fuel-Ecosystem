@@ -80,7 +80,7 @@ const toggleMenu = () => menuRef.current.classList.toggle('active__menu')
                          
                 </div>
                 <div className='icons hidden md:flex gap-5 text-[30px] cursor-pointer text-white'>
-              <a target='_blank' rel="noreferrer" href='https://twitter.com/FuelEcosystem_'>
+              <a target='_blank' rel="noreferrer" href='https://twitter.com/FuelEcos'>
                <span> <span className='text-[#1DE9B6] text-xl font-bold'>twitter</span> <i className="ri-twitter-line hover:opacity-[0.4]"></i></span>
                </a>
                </div>
