@@ -5,7 +5,7 @@ import img from "../Assets/img/Fuel pictures/articles/gr_11.webp";
 function Job() {
   return (
     <>
-      <section className="container mt-32">
+      <section className="container mt-[126px]">
         <div className="flex items-center flex-col md:flex-row overflow-hidden">
           <div className="">
             <p className="text-white text-3xl lg:text-2xl font-extrabold e-header">
