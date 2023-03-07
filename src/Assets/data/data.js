@@ -5,7 +5,7 @@ import img4 from "../../Assets/img/Fuel pictures/projects/Orao.jpg";
 import img5 from "../../Assets/img/Fuel pictures/projects/UNIC.jpg";
 import img6 from "../../Assets/img/Fuel pictures/projects/FuelPanks.jpg";
 import img7 from "../../Assets/img/Fuel pictures/projects/PoolShark.jpg";
-import img8 from "../../Assets/img/Fuel pictures/projects/webgum.jpg";
+import img8 from "../../Assets/img/Fuel pictures/projects/bald_boyz.jpg";
 import img10 from "../../Assets/img/Fuel pictures/projects/Thunder.jpg";
 import img11 from "../../Assets/img/Fuel pictures/projects/Acumen.jpg";
 import img12 from "../../Assets/img/Fuel pictures/projects/Elix.png";
@@ -138,14 +138,28 @@ export const ECOSYSTEM__DATA = [
     website: "https://www.nomen.sh/",
     twitter: "https://twitter.com/fuelnomen",
     medium: "https://fuelnomen.medium.com/",
+
     status: "Building",
 
     // https://fuelnomen.medium.com/
   },
+  {
+    id: "13",
+    title: "BaldBoyz",
+    desc: "BaldBoyz is a positivity-fueled community on Fuel’s blockchain. By fueling up positivity from the negativity on baldness, we have a main goal of creating a welcoming and engaging environment for people of all experiences to explore and learn about Fuel and its ecosystem We’re strong believers in fuel and NFTs and we understand that a strong community is essential for the growth and success of a blockchain in which NFTs play a big part. We are creating a community for all and we working towards being an entry point for people getting into Fuel and its ecosystem.",
+    imgUrl: img8,
+    category: "NFT",
+    website: "",
+    twitter: "https://twitter.com/BaldBoyzOnFuel",
+    medium:
+      "https://baldboyzfuel.medium.com/introduction-to-baldboyznft-7261f04abc5",
+    status: "Building",
+  },
 
   // {
   //   id: "13",
-  //   title: "WebGum",
+  //   title: "
+  // WebGum",
   //   desc: ' What is the Aptos Name Service? ' +
   //   'Leveraging the power of Aptos Tokens & Move we have built the decentralized, composable identity layer of Aptos.' +
   //   ' Under the hood, ANS is a smart contract that maps a name to an Aptos address. Claiming a name mints you a special NFT Token that gives you the sole power to edit the address of that name. That Token is composable' +
